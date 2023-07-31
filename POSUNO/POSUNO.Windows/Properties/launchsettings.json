@@ -1,0 +1,10 @@
+{
+  "profiles": {
+	"POSUNO.Windows (Package)": {
+	  "commandName": "MsixPackage"
+	},
+	"POSUNO.Windows (Unpackaged)": {
+	  "commandName": "Project"
+	}
+  }
+}
