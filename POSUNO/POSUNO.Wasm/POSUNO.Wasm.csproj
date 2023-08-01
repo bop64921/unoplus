@@ -59,6 +59,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="EntityFramework" />
 		<PackageReference Include="Microsoft.Windows.Compatibility" />
 		<PackageReference Include="Uno.Wasm.Bootstrap" />
 		<PackageReference Include="Uno.Wasm.Bootstrap.DevServer" />

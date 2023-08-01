@@ -11,6 +11,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="EntityFramework" />
 		<PackageReference Include="Uno.WinUI.Skia.Gtk" />
 		<PackageReference Include="Uno.Extensions.Configuration" />
 		<PackageReference Include="Uno.Extensions.Http" />

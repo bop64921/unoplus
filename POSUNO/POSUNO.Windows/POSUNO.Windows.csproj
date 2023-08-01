@@ -26,6 +26,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="EntityFramework" />
 		<PackageReference Include="Uno.WinUI" />
 		<PackageReference Include="Microsoft.WindowsAppSDK" />
 		<PackageReference Include="Microsoft.Windows.SDK.BuildTools" />
@@ -75,7 +76,7 @@
 		package has not yet been restored.
 	-->
 	<ItemGroup Condition="'$(DisableMsixProjectCapabilityAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
-		<ProjectCapability Include="Msix"/>
+		<ProjectCapability Include="Msix" />
 	</ItemGroup>
 
 	<!-- 

@@ -22,6 +22,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<PackageReference Include="EntityFramework" />
 		<PackageReference Include="Uno.WinUI" />
 		<PackageReference Include="Uno.Extensions.Configuration" />
 		<PackageReference Include="Uno.Extensions.Http" />
@@ -31,7 +32,7 @@
 		<PackageReference Include="Uno.Extensions.Serialization.Refit" />
 		<PackageReference Include="Uno.Material.WinUI" />
 		<PackageReference Include="Uno.Toolkit.WinUI.Material" />
-		<PackageReference Include="Uno.Extensions.Toolkit.WinUI"/>
+		<PackageReference Include="Uno.Extensions.Toolkit.WinUI" />
 		<PackageReference Include="Uno.Toolkit.WinUI" />
 		<PackageReference Include="Uno.Extensions.Hosting.WinUI" />
 		<PackageReference Include="Uno.Extensions.Localization.WinUI" />

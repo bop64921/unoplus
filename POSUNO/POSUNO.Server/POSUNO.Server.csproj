@@ -11,6 +11,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="EntityFramework" />
 		<PackageReference Include="Swashbuckle.AspNetCore" />
 		<PackageReference Include="Uno.Wasm.Bootstrap.Server" />
 	</ItemGroup>
